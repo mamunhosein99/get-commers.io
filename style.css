@@ -1,0 +1,9 @@
+.new-bg{
+    background-image: linear-gradient(90deg, rgb(250, 220, 132), rgb(253, 226, 226));
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.new-bg img{
+    height: 500px;
+}
