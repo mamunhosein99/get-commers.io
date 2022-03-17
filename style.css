@@ -3,7 +3,25 @@
     margin-top: 30px;
     border-radius: 20px;
     padding: 10px;
+    height: 450px;
+}
+
+.df-center{
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.df-center h1{
+    font-size: 2rem;
+    
+}
+.dollar{
+    color: rgb(218, 100, 100);
 }
 .new-bg img{
-    height: 500px;
+    height: 400px;
+    margin-top: 25px;
 }
