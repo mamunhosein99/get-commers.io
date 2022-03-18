@@ -4,7 +4,13 @@
 .new-bg{
     background-image: linear-gradient(90deg, rgb(250, 220, 132), rgb(253, 226, 226));
     border-radius: 10px;
-    height: 440px;
+    
+    
+}
+.img-size img{
+    width: 30%;
+    height: 350px;
+    margin: auto;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -23,48 +29,74 @@
     
 }
 .dollar{
-    color: rgb(218, 100, 100);
+    color: rgb(235, 37, 37);
 }
-.new-bg img{
-    height: 400px;
-    
-}
-.categories{
-    height: 180px;
-}
-.categories img{
-    height: 150px;
-}
+
+
 .cat-1, .cat-2, .cat-3{
     padding: 10px 30px;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+    color: whitesmoke;
+    height: 200px;
+    margin-bottom: 20px;
 }
+
 .cat-1{
     background-color: orange;
+}
+.cat-1 img{
+    width: 25%;
+    margin: auto;
 }
 .cat-2{
     background-color: purple;
 }
+.cat-2 img{
+    width: 25%;
+    margin: auto;
+}
 .cat-3{
     background-color: rgb(20, 155, 155);
 }
+.cat-3 img{
+    width: 30%;
+    height: 70%;
+    margin: auto;
+}
 .card{
-    width: 350px;
-    box-shadow: 10px 0px 40px gray;
+    border-radius: 10px;
+    box-shadow: 10px 0px 40px lightgray;
     padding: 10px 20px;
 
 }
 .card-fix img{
-    width: 200px;
-    margin: 0 0 0 50px;
-    height: 150px;
-    
+    margin: auto;
+    width: 170px;
 }
 #machine{
     padding-bottom: 50px;
     border-bottom: 1px solid gray;
+}
+#Backpack{
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+.g-4{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.card-footer {
+
+    padding: 1rem 1rem;
+    background-color: white;
+    border-top: none;
+}
+#Subscribe{
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 300px;
+}
+footer{
+    text-align: center;
 }
