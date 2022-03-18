@@ -71,7 +71,8 @@
 }
 .card-fix img{
     margin: auto;
-    width: 170px;
+    width: 50%;
+    height: 60%;
 }
 #machine{
     padding-bottom: 50px;
